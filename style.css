@@ -1,0 +1,758 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: "OnePlus Sans Regular", "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+/* section{
+    padding: 3px 50px;
+} */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: start;
+    color: rgb(227, 16, 16);
+    font-weight: 600;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px ;
+    
+    box-shadow: 0 4px 6px -6px #222;
+}
+.navbar ul{
+    display: flex;
+     
+}
+.navbar ul li{
+    margin-right:35px ;
+    list-style: none;
+   font-size: 14px;
+   color: #000000;
+    
+}
+.navbar ul li a{
+    font-size: 14px;
+    color: #000000;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+}
+.nav-right{
+    display: flex;
+}
+
+.nav-right .nav-items{
+    margin-left: 40px;
+}
+
+
+
+main{
+    padding: 40px 70px;
+
+}
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.for-header{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+
+    /* background-color: orange; */
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: normal;
+    text-align: start;
+}
+
+.content-img{
+    max-width: 80px;
+}
+.content-img img{
+    width: 100%;
+}
+.right-contents{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.right-content-items{
+    margin-right:40px ;
+   
+}
+.right-content-items:hover{
+    transition: all;
+    border-bottom: 1px solid rgb(227, 16, 16);;
+   
+}
+.text{
+    font-size:16px ;
+    line-height: 24px;
+    letter-spacing: normal;
+   
+    color: #101920;
+   
+}
+.updates{
+    font-size:12px ;
+    line-height: 14px;
+    letter-spacing: normal;
+    text-align: normal;
+    color: #ff1919;
+}
+
+
+
+
+.second-content{
+    padding: 30px;
+    margin-top:35px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+     height: 330px;
+    background-image: url(images/OP12R_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+  
+   
+}
+.adv-header{
+
+    margin-bottom: 10px;
+  
+}
+
+.adv-header span{
+
+  font-size: 32px;
+  line-height: 38px;
+  text-align: start;
+  letter-spacing: normal;
+  
+}
+.discription{
+font-size: 14px;
+line-height: 21px;
+text-align: start;
+letter-spacing: normal;
+
+}
+
+.second-content input{
+    width: 80px;
+    background-color: #000000;
+    padding: 8px;
+    border-radius:50px ;
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    margin-top: 220px;
+}
+.second-content input:hover{
+    background-color: #50585f;
+}
+.bottom-contents a:hover{
+    color: #2f4759;
+}
+.bottom-contents a{
+    text-decoration: underline;
+    margin-left:10px ;
+  color: #1a1a1a;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.bank-info{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 10px ;
+}
+.bank-info p{
+    margin-left: 5px;
+    font-size: 12px;
+    color: rgb(107, 104, 104);
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.third-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr .1fr 1fr ;
+ 
+  margin-top: 35px;
+  gap: 15px;
+  cursor: pointer;
+ 
+}
+
+.left-container{
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url(images/HeroProduct2Cards_Light_OP12_Desktop.jpg);
+    background-size: cover;
+}
+.third-content .right-container{
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url(images/HeroProduct2Cards_Light_NordCE4Lite_Desktop.jpg);
+    background-size: cover;
+}
+
+.third-content input{
+    margin-top: 250px;
+    width: 80px;
+    background-color: #000000;
+    padding: 8px;
+    border-radius:50px ;
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.third-content input:hover{
+    background-color: #50585f;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.slider-items{
+    width: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+   
+    
+   
+}
+.device-names{
+    margin: -40px 0 0 20px;
+    position: absolute;
+    font-size: 26px;
+    
+}
+.slider-section .discription{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 20px 0 50px 20px;
+    
+}
+.slider-section .discription span{
+  font-size: 20px;
+    
+}
+.slider-section .discription a{
+    text-decoration: line-through;
+    color: #50585f;
+      
+  }
+
+.slider-image{
+   position: relative;
+  
+      background-color: #eaeaea;
+}
+  
+.slider-section .discription p{
+    color: #ff1919;
+    font-size: 16px;
+    line-height: 21 px;
+}
+.slider-section{
+    display: flex;
+    gap: 20px;
+}
+.slider-image img{
+    width: 100%;
+    
+}
+
+.section-5-header{
+    margin: 30px 0 30px 60px;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: normal;
+}
+.exp-card{
+   
+    width: 450px;
+    border-radius: 5px;
+   
+    overflow: hidden;
+    
+}
+.card-image img{
+    width: 100%;
+}
+.exp-card .card-discription{
+     padding: 25px;
+    line-height: 24px;
+    
+   
+}
+.exp-card .card-discription p{
+    color: #828282;
+    font-size: 14px;
+}
+
+.exp-card .card-discription span{
+    font-size: 26px;
+    line-height:24px ;
+}
+
+.exp-card .card-discription input{
+   margin-top: 20px;
+    width: 100px;
+    background-color: #000000;
+    padding: 9px;
+    border-radius:50px ;
+    color: #fff;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.experience-section{
+    display: flex;
+    gap: 20px;
+}
+
+
+.audio-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    
+}
+
+  .audio-main-card{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 550px;
+    border-radius: 5px;
+   
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    flex-direction: column;
+    background-image: url("images/ExpressionCard_Dark_NordBuds3Pro_Desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    position: relative;
+ 
+ 
+}
+
+.audio-main-card .sample{
+    position: absolute;
+    margin: 20px 0 0 20px;
+   
+   
+}
+ 
+.audio-main-card .section-title p{
+    color: #828282;
+    font-size: 16px;
+}
+.audio-main-card .section-title h2{
+   font-weight:500;
+   line-height: 50px;
+   font-size: 26px;
+}
+
+/* .audio-section-cards .btn {
+    display: flex;
+   
+    position: absolute;
+    
+
+}  */
+.audio-main-card .section-btn input{
+
+    position: absolute;
+    left: 5;
+    bottom: 0;
+    width: 75px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius:50px ;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+/* .test img{
+    width: 100%;
+    height: 100%;
+    
+} */
+
+/* .header{
+   margin-top: 40px;
+  color: #fff;
+  display: flex;
+  margin-left: 30px;
+   font-size: 26px;
+   position: absolute;
+} */
+
+.audio-section-cards .section-btn {
+    
+ /* display: flex;
+    width: 80px;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius:50px ;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+    border: none; */
+}
+
+.audio-sections-cards{
+    background-color: #f2f2f2;
+       width: 300px;
+       height: 505px;
+       border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+       color: #fff;
+       display: flex;
+      padding: 20px;
+       overflow: hidden;
+      font-size: 16px;
+    
+    
+   }
+   
+   .audio-images img{
+       width: 100%;
+      
+   }
+   .audio-details{
+       color: #1a1a1a;
+       font-size: 16px;
+   }
+   .audio-details strike{
+       color: #828282;
+       font-size: 14px;
+
+   }
+   .audio-details h4{
+       margin: 15px 0 15px 0;
+       color: #ff1919;
+   }
+   .audio-details-two{
+       margin-top: 50px;
+   }
+   .sections-btn input{
+   
+   
+       width: 75px;
+       height: 30px;
+       background-color: #000000;
+   color: #ffffff;
+       border-radius:50px ;
+       font-size: 12px;
+       line-height: normal;
+       letter-spacing: normal;
+       text-align: center;
+       cursor: pointer;
+       border: none;
+   }
+   .red-cable-club{
+    margin-top: 100px;
+    background-color: #262626;
+  
+   
+    padding: 60px;
+    
+   }
+
+   
+   .red-cable-club h1{
+    color: #ffffff;
+    font-weight: 100;
+   margin-bottom: 30px;
+
+   }
+
+   .red-cable-article {
+    color: #ffffff;
+    font-weight: 100;
+    width: 100%;
+   height: 500px;
+   background-position: center;
+   background-size: cover;
+  background-image: url("images/ArticleCard_Dark_RCC_Desktop.jpg");
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  
+   }
+.about-article{
+  
+    width: 500px;
+    height: 500px;
+    background-color: #313030   ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+   
+    
+}
+ .article{
+    padding: 25px;
+ }
+.article h3{
+    color: #828282;
+    font-size: 16px;
+    font-weight: 100;
+}
+.article h1{
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 50px;
+}
+ .article input{
+margin: 15px 0px 5px 5px;
+    width: 75px;
+    height: 30px;
+    background-color: #ffffff;
+  
+    border-radius:50px ;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.support-section{
+    display: flex;
+    gap: 20px;
+}
+.left-section-details{
+    width: 685px;
+    height: 450px;
+    background-color: #313030   ;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left-section-image{
+    
+    overflow: hidden;
+    width: 650px;
+    height: 450px;
+    background-image: url("images/helpdesk_Desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.right-section-image{
+    
+    overflow: hidden;
+    width: 900px;
+    height: 450px;
+    background-image: url("images/RepairService_Desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.left-section-contents{
+    color: #828282;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 15px;
+}
+.left-section-contents h2 {
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+.left-section-contents input{
+    margin: 15px 0px 5px 5px;
+        width: 75px;
+        height: 30px;
+        background-color: #ffffff;
+      
+        border-radius:50px ;
+        font-size: 12px;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        cursor: pointer;
+        border: none;
+    }
+.support-div{
+    display: flex;
+    gap: 20px;
+}
+.base-section{
+    padding: 60px;
+    background-color: #000000;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px       ;
+    
+}
+.base-section h2{
+    font-weight: 100;
+    font-size: 26px;
+   margin-bottom: 30px;
+    line-height: 30px;
+}
+.benifit-section-left{
+    background-image: url("images/3366ee472982bff9a48adcc3d672fb46.png");
+    width: 650px;
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.benifit-section-right{
+    background-image: url("images/3366ee472982bff9a48adcc3d672fb46.png");
+    width: 650px;
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner-contents{
+   width: 320px;
+   height: auto;
+   line-height: 20px;
+}
+.inner-playstore-btn input{
+    margin: 15px 0px 5px 5px;
+    border: 1px solid #bab8b8;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 28px;
+    width: 300px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+    .footer{
+        padding: 60px;
+        background-color: #000000;
+        color: #ffffff;
+    
+       
+        
+    }
+    .footer-section{
+       
+       
+    }
+    .come{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0 60px 0;
+        
+    }
+    .footer-section ul {
+        line-height: 30px;
+        color: #6f7b87;
+       list-style: none;
+        font-size: 14px;
+
+
+    }
+    
+    .downfooter{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border-top: 1px solid #8f8d8d ;
+        padding: 20px;
+
+    }
+    .downfooter ul {
+        /* margin-top: 40px; */
+       
+        display: flex;
+        font-size: 12px;
+        color: #828282;
+       gap: 50px;
+       list-style: none;
+       
+
+    }
+    .downfooter ul li a{
+       text-decoration: none;
+        color: #828282;
+    }
+    .downfooter ul li a:hover{
+        text-decoration: none;
+         color: #fff;
+     }
+    .country a{
+        font-size: 14px;
+        color: #828282;
+        
+    }
+    .country a:hover{
+        color: #fff;
+        text-decoration: none;
+    }
